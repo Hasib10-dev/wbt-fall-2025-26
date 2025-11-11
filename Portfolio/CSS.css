@@ -1,0 +1,49 @@
+
+body{
+    background-color: #00922C;
+    color:#001206;
+    backdrop-filter: 5px;
+    
+}
+.home{
+    text-align:center;
+}
+.MyPic{
+    border-radius: 50%;
+    height:10%;
+    width:10%;
+}
+.row-1{
+    background-color:#54D37A;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+
+nav{
+    text-align: center;
+}
+
+li{
+    list-style:none;
+    display: inline;
+
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    text-align:center;
+}
+.edu{
+    text-align:center;
+}
+
+input{
+    background-color:#54D37A;
+    border-radius: 5%;
+    border:0px;
+}
