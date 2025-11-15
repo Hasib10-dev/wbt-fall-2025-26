@@ -2,7 +2,7 @@
 body{
     background-color: #00922C;
     color:#001206;
-    backdrop-filter: 5px;
+    
     
 }
 .home{
@@ -35,8 +35,39 @@ h2{
     text-align: center;
 }
 
-form{
+.container-2{
     text-align:center;
+    height:auto;
+    width:auto;
+    border:2px solid white;
+    margin-left:30%;
+    margin-right:30%;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+form{
+    
+    
+}
+
+.name{
+    margin-left:60px;
+}
+.email{
+    margin-left: 91PX;
+}
+.reason{
+    margin-left:-181px;
+}
+.provide{
+    margin-left:-121px;
+}
+.apointment{
+    margin-left:-59px;
+}
+.check{
+    margin-left:1px ;
 }
 .edu{
     text-align:center;

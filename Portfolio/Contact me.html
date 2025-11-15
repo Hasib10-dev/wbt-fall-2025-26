@@ -24,36 +24,42 @@
     </div>
 
     <h2>Contact ME</h2>
-    <form method="GET">
+
+    <div class="container-2">
+        <form method="GET">
         <label>First Name : </label>
-        <input type="text" name="firstname" required><br><br>
+        <input class="name" type="text" name="firstname" required><br><br>
 
         <label>Last Name : </label>
-        <input type="text" name="lastname" required/><br><br>
+        <input class="name" type="text" name="lastname" required/><br><br>
 
-        <label>Email : </label>
-        <input type="email" required/><br><br>
+        <label >Email : </label>
+        <input class="email" type="email"  required/><br><br>
 
-        <label>Company : (optional)</label>
+        <label>Company (optional) : </label>
         <input type="text"/><br><br>
 
-        <label>Reason for contact : </label><br><br>
+        <label class="reason">Reason for contact : </label><br>
         <input type="radio" name="reason" required>Project<br>
-        <input type="radio" name="reason">Thesis<br>
+        <input type="radio" name="reason">Thesis <br>
         <input type="radio" name="reason">Job<br><br>
 
-        <label>Three services I will provide : </label><br><br>
-        <input  type="checkbox" required/>one<br>
-        <input  type="checkbox" required/>two<br>
-        <input  type="checkbox" required/>three<br><br>
+        <label class="provide">Three services I will provide : </label><br><br>
+        <input  class="check" type="checkbox" required/>one<br>
+        <input  class="check" type="checkbox" required/>two<br>
+        <input  class="check" type="checkbox" required/>three<br><br>
         
-        <label>Book an apoinment : </label>
+        <label class="apointment">Book an apoinment : </label>
         <input type="date" required/><br><br>
 
         <input type="submit" value="Register"/>
         <input type="submit" value="Reset"/>
         
     </form>
+
+    </div>
+    
+    
     
     
 
